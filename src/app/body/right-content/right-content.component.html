@@ -1,0 +1,34 @@
+<div class="row">
+    <div class="col-lg-6">
+        <h4>Creams & Gels</h4>
+    </div>
+    <div class="col-lg-6 d-flex align-items-center justify-content-end">
+        <span class="cream-bar cream-bar-text mr-2">Showing 60 of 323</span>
+        <button class="btn btn-outline-secondary btn-sm mr-2"><i class="fa fa-angle-left"></i></button>
+        <button class="btn btn-outline-secondary btn-sm"><i class="fa fa-angle-right"></i></button>
+    </div>
+</div>
+<div class="row mt-3 types">
+    <div class="col-lg-3">
+        <span class="">BRAND: </span>
+        <span class="text-primary">ALL BRANDS</span>
+    </div>
+    <div class="col-lg-4">
+        <span class="">SKIN TYPE: </span>
+        <span class="text-primary">FOR ALL SKIN TYPES</span>
+    </div>
+    <div class="col-lg-2">
+        <span class="">AGE: </span>
+        <span class="text-primary">30+</span>
+    </div>
+    <div class="col-lg-3 d-flex justify-content-end">
+        <span class="">SORT BY: </span>
+        <span class="text-primary">POPULARITY</span>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-2 product-container" *ngFor="let product of products">
+        <app-product [product]=product></app-product>
+    </div>
+</div>

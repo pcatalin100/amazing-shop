@@ -1,0 +1,82 @@
+[
+  {
+    "productId": 1,
+    "productName": "Honey face cream",
+    "description": "Special honey cream for your ugly face",
+    "price": 19.95,
+    "starRating": 4.2,
+    "imageUrl": "assets/images/2.jpg",
+    "categoryId": 5,
+    "subCategoryId": 3
+  },
+  {
+    "productId": 2,
+    "productName": "Baby exctract night face cream",
+    "description": "Special honey cream for your ugly face",
+    "price": 19.95,
+    "starRating": 4.2,
+    "imageUrl": "assets/images/3.jpg",
+    "categoryId": 5,
+    "subCategoryId": 3
+  },
+  {
+    "productId": 3,
+    "productName": "Banana extract face cream",
+    "description": "Special honey cream for your ugly face",
+    "price": 19.95,
+    "starRating": 4.2,
+    "imageUrl": "assets/images/4.jpg",
+    "categoryId": 5,
+    "subCategoryId": 3
+  },
+  {
+    "productId": 4,
+    "productName": "Night vision face cream",
+    "description": "Special honey cream for your ugly face",
+    "price": 19.95,
+    "starRating": 4.2,
+    "imageUrl": "assets/images/5.jpg",
+    "categoryId": 5,
+    "subCategoryId": 3
+  },
+  {
+    "productId": 5,
+    "productName": "Cucumber extract face cream",
+    "description": "Special honey cream for your ugly face",
+    "price": 19.95,
+    "starRating": 4.2,
+    "imageUrl": "assets/images/6.png",
+    "categoryId": 5,
+    "subCategoryId": 3
+  },
+  {
+    "productId": 6,
+    "productName": "Ariel extract face cream",
+    "description": "Special honey cream for your ugly face",
+    "price": 19.95,
+    "starRating": 4.2,
+    "imageUrl": "assets/images/7.jpg",
+    "categoryId": 5,
+    "subCategoryId": 3
+  },
+  {
+    "productId": 7,
+    "productName": "Fake face cream",
+    "description": "Special honey cream for your ugly face",
+    "price": 19.95,
+    "starRating": 4.2,
+    "imageUrl": "assets/images/8.jpg",
+    "categoryId": 5,
+    "subCategoryId": 3
+  },
+  {
+    "productId": 8,
+    "productName": "Some random stupid face cream",
+    "description": "Special honey cream for your ugly face",
+    "price": 19.95,
+    "starRating": 4.2,
+    "imageUrl": "assets/images/9.jpg",
+    "categoryId": 5,
+    "subCategoryId": 3
+  }
+]
