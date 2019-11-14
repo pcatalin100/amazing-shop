@@ -1,0 +1,15 @@
+img {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.product-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgb(187, 184, 184);
+    box-shadow: -1px 1px 14px 0px rgba(187, 184, 184, 0.75);
+    height: 100%;
+}
