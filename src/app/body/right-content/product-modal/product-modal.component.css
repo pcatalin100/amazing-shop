@@ -1,0 +1,20 @@
+img {
+    width: 100%;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.price {
+    color: rgb(231, 153, 8);
+    font-weight: bold;
+}
+
+.details {
+    border-bottom: 1px dashed #000;
+    text-decoration: none;
+    font-size: 18px;
+}

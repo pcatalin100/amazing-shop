@@ -1,5 +1,6 @@
-<div class="product-display">
+<div class="product-display" (click)="openModal(product)">
     <img src="{{product.imageUrl}}" alt="">
     <p class="text-center">{{product.productName}}</p>
-    <p class="text-center">${{product.price}}</p>
+    <app-star [rating]="product.starRating"></app-star>
+    <p class="text-center price">${{product.price}}</p>
 </div>

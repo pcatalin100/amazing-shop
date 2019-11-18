@@ -1,22 +1,21 @@
 import { Injectable } from '@angular/core';
-import { Observable, throwError } from 'rxjs';
-import { IProduct } from './product';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
-import { catchError, tap } from 'rxjs/operators';
+import { Observable, throwError } from 'rxjs';
+import { IPromos } from './promos';
+import { tap, catchError } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
 })
-export class ProductService {
-  private productUrl = 'api/products/products.json';
+export class PromosService {
+  private promosUrl = 'api/products/promos.json';
   constructor(private http: HttpClient) { }
-  getProducts(): Observable<IProduct[]> {
-    return this.http.get<IProduct[]>(this.productUrl).pipe(
-      tap(data => console.log("All products")),
+  getPromos(): Observable<IPromos[]>{
+    return this.http.get<IPromos[]>(this.promosUrl).pipe(
+      tap(data => console.log("All promos")),
       catchError(this.handleError)
     )
   }
-
   private handleError(err: HttpErrorResponse ) {
     let errorMessage = '';
     if( err.error instanceof ErrorEvent ){

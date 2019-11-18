@@ -1,0 +1,8 @@
+footer {
+    background: rgb(54, 54, 54);
+    min-height: 200px;
+}
+.social-media{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}

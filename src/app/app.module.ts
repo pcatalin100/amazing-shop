@@ -9,6 +9,9 @@ import { RightContentComponent } from './body/right-content/right-content.compon
 import { LeftContentComponent } from './body/left-content/left-content.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProductComponent } from './body/right-content/product/product.component';
+import { ProductModalComponent, NgbdModalContent } from './body/right-content/product-modal/product-modal.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { StarComponent } from './body/right-content/star/star.component';
 
 @NgModule({
   declarations: [
@@ -18,13 +21,18 @@ import { ProductComponent } from './body/right-content/product/product.component
     FooterComponent,
     RightContentComponent,
     LeftContentComponent,
-    ProductComponent
+    ProductComponent,
+    ProductModalComponent,
+    NgbdModalContent,
+    StarComponent
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [NgbdModalContent]
 })
 export class AppModule { }

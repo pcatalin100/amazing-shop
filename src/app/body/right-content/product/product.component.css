@@ -13,3 +13,7 @@ img {
     box-shadow: -1px 1px 14px 0px rgba(187, 184, 184, 0.75);
     height: 100%;
 }
+.price{
+    color: rgb(231, 153, 8);
+    font-weight: bold;
+}
